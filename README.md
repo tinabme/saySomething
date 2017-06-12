@@ -2,11 +2,6 @@
 
 This Simple node.js app allows a user to receive a compliment or criticism either written or with an emoji.
 
-Example uses:
-* UI request to send sample file to Virus Total based on a hash
-* Mother request to locate a file (sample, shuriken, misc-file, artifact) based on a hash and return the path
-
-
 ##### dockerized
 To run locally, ``sh run.sh "draw nice Tina"``
 To stop, `sh run.sh stop`
