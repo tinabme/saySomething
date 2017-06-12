@@ -18,8 +18,6 @@ To test, `npm test`
 
 
 #### Required parameters
-
-##### Send to VTI
   - print_mode: How you would like the compliment to criticism presented (write/draw)
   - say_type: The type of compliment or criticism (nice/grumpy)
   - say_name: The name of the person that will be complimented or criticised
