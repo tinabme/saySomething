@@ -1,4 +1,4 @@
-## FileFerry
+## SaySomething
 
 This Simple node.js app allows a user to receive a compliment or criticism either written or with an emoji.
 
