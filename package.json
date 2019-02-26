@@ -1,23 +1,39 @@
 {
   "name": "saysomething",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Get a complement or criticism as needed.",
   "main": "index.js",
   "scripts": {
     "start": "node ./app/index.js",
-    "test": "./node_modules/.bin/mocha  test/app --recursive"
+    "test": "mocha  test/app --recursive"
   },
   "repository": {
     "test": "mocha",
     "type": "git",
-    "url": "https://github.com/tinabme/saySomething.git"
+    "url": "git+https://github.com/tinabme/saySomething.git"
   },
   "author": "Tina Barfield <tinabme@users.noreply.github.com>",
   "license": "ISC",
   "devDependencies": {
-    "chai": "^4.0.2",
-    "mocha": "^3.4.2",
-    "nock": "^9.0.13",
-    "sinon": "^2.3.4"
-  }
+    "chai": "^4.2.0",
+    "mocha": "^3.5.3",
+    "nock": "^9.6.1",
+    "sinon": "^2.4.1"
+  },
+  "bugs": {
+    "url": "https://github.com/tinabme/saySomething/issues"
+  },
+  "homepage": "https://github.com/tinabme/saySomething#readme",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "winston": "^2.4.4"
+  },
+  "keywords": [
+    "say",
+    "something",
+    "compliment",
+    "criticism"
+  ]
 }
