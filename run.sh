@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 CMD=${*:1}
-APP_NAME=saySomething
+APP_NAME=saysomething
 if [[ $CMD == 'stop' ]]; then
     echo 'Stopping Container'
-    docker stop $(docker ps -q --filter ancestor=$APP_NAME)
-    docker rm -f local-redis
+    docker stop $(docker ps -aq --filter ancestor=$APP_NAME)
     echo 'Container Stopped'
+    echo 'Removing Container'
+    docker rm -f $(docker ps -aq --filter ancestor=$APP_NAME)
+    echo 'Container Removed'
 else
     echo $1 $2 $3 $4 $5
 
