@@ -25,10 +25,13 @@ This Simple node.js app allows a user to receive a compliment or criticism eithe
 
 #### Usage
 Fork this repo to your local machine, install Node and the listed node modules
+> run `npm install` to get the latest modules
 
   > ###### To Run - dockerized
   > * To run locally, ``sh run.sh "draw nice Tina"``
   > * To stop, `sh run.sh stop`
+  >
+  ><sub>/* The first time run will build the image</sub>
 
   > ###### To Run - npm stand alone
   > * To run locally, ``npm start write grumpy Tina``
